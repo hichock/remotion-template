@@ -24647,7 +24647,7 @@ var parseMediaOnWebWorker = (params) => {
   if (typeof Worker === "undefined") {
     throw new Error('"Worker" is not available. Cannot call parseMediaOnWebWorker()');
   }
-  if ("file:///Users/markshcherbakov/remotion-bundle/node_modules/@remotion/media-parser/dist/esm/worker.mjs".includes(".vite/deps")) {
+  if ("file:///home/runner/work/remotion-template/remotion-template/node_modules/@remotion/media-parser/dist/esm/worker.mjs".includes(".vite/deps")) {
     const err = [
       "Detected Vite pre-bundling, which will break the worker.",
       "Please add the following to your vite.config.js:",
